@@ -9,8 +9,9 @@ from .etag import EtagMixin as EtagMixin
 from .pagination import PaginationMixin as PaginationMixin
 from .response import ResponseMixin as ResponseMixin
 
+def __getattr__(name: str) -> Any: ...  # incomplete
+
 class Blueprint(FlaskBlueprint, ArgumentsMixin, ResponseMixin, PaginationMixin, EtagMixin):
-    def __getattr__(self, name: str) -> Any: ...  # incomplete
     HTTP_METHODS: list[str]
     DEFAULT_LOCATION_CONTENT_TYPE_MAPPING: dict[str, str]
     DOCSTRING_INFO_DELIMITER: str
