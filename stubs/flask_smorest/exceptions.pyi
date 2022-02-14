@@ -2,7 +2,7 @@ from typing import Any
 
 import werkzeug.exceptions as wexc
 
-def __getattr__(self, name: str) -> Any: ...  # incomplete
+def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
 
 class FlaskSmorestError(Exception): ...
 class MissingAPIParameterError(FlaskSmorestError): ...

@@ -2,7 +2,7 @@ from typing import Any
 
 import marshmallow as ma
 
-def __getattr__(self, name: str) -> Any: ...  # incomplete
+def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
 
 class Upload(ma.fields.Field):
     format: Any

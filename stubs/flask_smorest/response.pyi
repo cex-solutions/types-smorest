@@ -1,5 +1,5 @@
-from builtins import Type
 from http import HTTPStatus
+from typing import Type  # noqa: Y022 # switching typing.type to builtins.type causes an import error
 from typing import Callable
 
 from _typeshed import Self

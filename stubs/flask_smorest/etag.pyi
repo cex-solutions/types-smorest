@@ -6,7 +6,7 @@ from .exceptions import PreconditionRequired as PreconditionRequired
 from .utils import deepupdate as deepupdate
 from .utils import get_appcontext as get_appcontext
 
-def __getattr__(self, name: str) -> Any: ...  # incomplete
+def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
 
 IF_NONE_MATCH_HEADER: Any
 IF_MATCH_HEADER: Any

@@ -1,4 +1,4 @@
-from builtins import Type
+from typing import Type  # noqa: Y022 # switching typing.type to builtins.type causes an import error
 from typing import Any, Callable, Literal
 
 from _typeshed import Self

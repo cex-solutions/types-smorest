@@ -2,7 +2,7 @@ from typing import Any
 
 from apispec import BasePlugin  # type: ignore[import] # noqa: 723
 
-def __getattr__(self, name: str) -> Any: ...  # incomplete
+def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
 
 RE_URL: Any
 
