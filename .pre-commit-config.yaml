@@ -1,4 +1,22 @@
 repos:
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy
+        entry: mypy
+        language: system
+        types: [ pyi ]
+        pass_filenames: false
+        require_serial: true
+        args: [
+          "stubs",
+          "--show-error-codes",
+          "--namespace-packages",
+          "--show-traceback",
+          "--no-implicit-optional",
+          "--disallow-any-generics",
+          "--warn-incomplete-stub",
+        ]
   - repo: https://github.com/psf/black
     rev: 22.1.0
     hooks:
