@@ -10,7 +10,7 @@ from .pagination import PaginationMixin as PaginationMixin
 from .response import ResponseMixin as ResponseMixin
 
 class Blueprint(FlaskBlueprint, ArgumentsMixin, ResponseMixin, PaginationMixin, EtagMixin):
-    def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
+    def __getattr__(self, name: str) -> Any: ...  # incomplete
     HTTP_METHODS: list[str]
     DEFAULT_LOCATION_CONTENT_TYPE_MAPPING: dict[str, str]
     DOCSTRING_INFO_DELIMITER: str

@@ -4,7 +4,7 @@ import marshmallow as ma
 
 from .utils import unpack_tuple_response as unpack_tuple_response
 
-def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
+def __getattr__(name: str) -> Any: ...  # incomplete
 
 class PaginationParameters:
     page: Any

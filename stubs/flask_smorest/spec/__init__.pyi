@@ -8,7 +8,7 @@ from .constants import DEFAULT_RESPONSE_CONTENT_TYPE as DEFAULT_RESPONSE_CONTENT
 from .field_converters import uploadfield2properties as uploadfield2properties
 from .plugins import FlaskPlugin as FlaskPlugin
 
-def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
+def __getattr__(name: str) -> Any: ...  # incomplete
 
 class DocBlueprintMixin: ...
 

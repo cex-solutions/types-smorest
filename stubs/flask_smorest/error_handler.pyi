@@ -2,7 +2,7 @@ from typing import Any
 
 import marshmallow as ma
 
-def __getattr__(self, name: str) -> Any: ...  # type: ignore[misc]  # incomplete
+def __getattr__(name: str) -> Any: ...  # incomplete
 
 class ErrorSchema(ma.Schema):
     code: Any
