@@ -9,7 +9,7 @@ repos:
         pass_filenames: false
         require_serial: true
         args: [
-          "stubs",
+          "flask_smorest-stubs",
           "--show-error-codes",
           "--namespace-packages",
           "--show-traceback",
