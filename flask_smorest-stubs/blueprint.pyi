@@ -15,21 +15,14 @@ class Blueprint(FlaskBlueprint, ArgumentsMixin, ResponseMixin, PaginationMixin, 
     HTTP_METHODS: list[str]
     DEFAULT_LOCATION_CONTENT_TYPE_MAPPING: dict[str, str]
     DOCSTRING_INFO_DELIMITER: str
-    description: str
-
-    def __init__(self, *args: Any, **kwargs: Any) -> None: ...
-    def add_url_rule(
+    def __init__(
         self,
-        rule,
-        endpoint: Any | None = ...,
-        view_func: Any | None = ...,
-        provide_automatic_options: Any | None = ...,
-        *,
-        parameters: Any | None = ...,
-        tags: Any | None = ...,
-        **options
+        name: str,
+        import_name: str,
+        *args: Any,
+        url_prefix: str | None = ...,
+        description: str | None = ...,
+        **kwargs: Any
     ) -> None: ...
-    def route(self, rule, *, parameters: Any | None = ..., tags: Any | None = ..., **options): ...
-    def register_views_in_doc(self, api, app, spec, name, parameters) -> None: ...
     @staticmethod
     def doc(**kwargs: str | abc.Mapping[str, Any]) -> Callable[..., Self]: ...
