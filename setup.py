@@ -49,12 +49,12 @@ setup(
     install_requires=[],
     extras_require={
         "dev": [
-            "flask==2.0.2",
+            "types-flask==1.1.6",
             "marshmallow==3.14.1",
             "apispec==5.1.1",
             "mypy==0.931",
             "pipenv-setup==3.1.4",
-            "types-flask==1.1.6",
+            "twine==3.8.0",
         ]
     },
     dependency_links=[],

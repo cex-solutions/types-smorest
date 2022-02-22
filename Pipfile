@@ -10,6 +10,7 @@ apispec  = "==5.1.1"
 
 mypy = "==0.931"
 pipenv-setup = "==3.1.4"
+twine = "==3.8.0"
 
 
 [requires]
