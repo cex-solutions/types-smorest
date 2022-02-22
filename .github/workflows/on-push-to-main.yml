@@ -23,7 +23,7 @@ jobs:
           node-version: 'lts/*'
 
       - name: Install semantic release slack bot
-        run: npm i semantic-release-slack-bot
+        run: npm i semantic-release-slack-bot semantic-release-pypi
 
       - name: Release
         env:
