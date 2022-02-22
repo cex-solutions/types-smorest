@@ -32,9 +32,3 @@ $ pre-commit install
 # To run it manually, use:
 $ pre-commit run --all-files
 ```
-
-### Versioning
-
-The first 3 segments of the `types-smorest` version are the same as the `flask-smorest` version for which they are
-created, with the 4th segment being used for stub versioning.  
-For example, `flask-smorest` v1.2.3 can use `types-smorest` v1.2.3.X (v1.2.3.0, v1.2.3.1, etc.)

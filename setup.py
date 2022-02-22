@@ -17,7 +17,6 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="types-smorest",
-    # version="0.36.0.0", Reserved for final release, 0.0.X will be used for initial tests
     version="0.0.7",
     description="Type Stubs for flask-smorest",
     long_description=long_description,
