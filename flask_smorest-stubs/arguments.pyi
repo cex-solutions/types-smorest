@@ -1,8 +1,14 @@
-from typing import Type  # noqa: Y022 # switching typing.type to builtins.type causes an import error
-from typing import Any, Callable, Literal
+from typing import (  # noqa: Y022 # switching typing.type to builtins.type causes an import error
+    Any,
+    Callable,
+    Literal,
+    Type,
+    TypeVar,
+)
 
-from _typeshed import Self
 from marshmallow import Schema
+
+_T = TypeVar("_T", bound=Callable[..., Any])
 
 class ArgumentsMixin:
     ARGUMENTS_PARSER: Any
@@ -18,4 +24,4 @@ class ArgumentsMixin:
         example: dict[str, object] | None = ...,
         examples: dict[str, object] | None = ...,
         **kwargs: Any
-    ) -> Callable[..., Self]: ...
+    ) -> Callable[[_T], _T]: ...

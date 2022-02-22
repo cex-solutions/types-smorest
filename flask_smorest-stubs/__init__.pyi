@@ -8,7 +8,9 @@ from .error_handler import ErrorHandlerMixin
 from .pagination import Page as Page
 from .spec import APISpecMixin
 
-def abort(http_status_code: int | Response, exc: Exception | None = ..., **kwargs) -> NoReturn: ...
+__all__ = ["abort", "Api"]
+
+def abort(http_status_code: int | Response, exc: Exception | None = ..., **kwargs: Any) -> NoReturn: ...
 
 class Api(APISpecMixin, ErrorHandlerMixin):
     spec: APISpec
