@@ -12,6 +12,7 @@
         {
           "notifyOnSuccess": false,
           "notifyOnFail": false,
+          "packageName": "types-smorest",
           "branchesConfig": [
             {
               "pattern": "main",
