@@ -1,4 +1,3 @@
-from builtins import type
 from typing import Any
 
 import marshmallow as ma
@@ -13,4 +12,4 @@ class ErrorSchema(ma.Schema):
 class ErrorHandlerMixin:
     ERROR_SCHEMA: type[ErrorSchema]
 
-    def handle_http_exception(self, error: HTTPException): ...
+    def handle_http_exception(self, error: HTTPException) -> tuple[dict[str, Any], Any, dict[str, Any]]: ...
