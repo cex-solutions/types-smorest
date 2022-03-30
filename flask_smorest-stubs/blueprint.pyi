@@ -1,7 +1,6 @@
 from collections import abc
 from typing import Any, Callable, TypeVar
 
-from _typeshed import Self
 from flask import Blueprint as FlaskBlueprint
 
 from .arguments import ArgumentsMixin as ArgumentsMixin
