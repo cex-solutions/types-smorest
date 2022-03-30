@@ -6,8 +6,10 @@ Modified by Madoshakalaka@Github (dependency links added)
 """
 from os import path
 
+from setuptools import glob
+from setuptools import setup
+
 # Always prefer setuptools over distutils
-from setuptools import find_packages, glob, setup
 
 here = path.abspath(path.dirname(__file__))
 
@@ -51,6 +53,7 @@ setup(
             "types-flask==1.1.6",
             "marshmallow==3.15.0",
             "apispec==5.1.1",
+            "flask==2.1.0",
             "werkzeug==2.1.0",
             "mypy==0.942",
             "pipenv-setup==3.2.0",
