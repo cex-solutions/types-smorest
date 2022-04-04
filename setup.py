@@ -57,7 +57,7 @@ setup(
             "werkzeug==2.1.1",
             "mypy==0.942",
             "pipenv-setup==3.2.0",
-            "twine==3.8.0",
+            "twine==4.0.0",
         ]
     },
     dependency_links=[],
