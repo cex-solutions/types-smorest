@@ -52,7 +52,7 @@ setup(
         "dev": [
             "types-flask==1.1.6",
             "marshmallow==3.15.0",
-            "apispec==5.1.1",
+            "apispec==5.2.1",
             "flask==2.1.2",
             "werkzeug==2.1.2",
             "mypy==0.942",
