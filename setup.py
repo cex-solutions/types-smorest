@@ -51,7 +51,7 @@ setup(
     extras_require={
         "dev": [
             "types-flask==1.1.6",
-            "marshmallow==3.17.1",
+            "marshmallow==3.18.0",
             "apispec==5.2.2",
             "flask==2.2.2",
             "werkzeug==2.2.2",
