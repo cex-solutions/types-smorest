@@ -1,10 +1,6 @@
+from collections.abc import Callable
 from http import HTTPStatus
-from typing import (  # noqa: Y022 # switching typing.type to builtins.type causes an import error
-    Any,
-    Callable,
-    Type,
-    TypeVar,
-)
+from typing import Any, Type, TypeVar  # noqa: Y022 # switching typing.type to builtins.type causes an import error
 
 from marshmallow import Schema
 

@@ -1,6 +1,6 @@
+from collections.abc import Callable
 from typing import (  # noqa: Y022 # switching typing.type to builtins.type causes an import error
     Any,
-    Callable,
     Literal,
     Type,
     TypeVar,
@@ -17,7 +17,7 @@ class ArgumentsMixin:
         self,
         schema: Schema | Type[Schema],
         *,
-        location: Literal["json", "query", "querrystring", "path", "form", "headers", "cookies", "files"] = ...,
+        location: Literal["json", "query", "querystring", "path", "form", "headers", "cookies", "files"] = ...,
         content_type: str | None = ...,
         required: bool = ...,
         description: str | None = ...,
