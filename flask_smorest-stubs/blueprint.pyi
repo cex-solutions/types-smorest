@@ -1,5 +1,6 @@
 from collections import abc
-from typing import Any, Callable, TypeVar
+from collections.abc import Callable
+from typing import Any, TypeVar
 
 from flask import Blueprint as FlaskBlueprint
 
