@@ -11,7 +11,7 @@ apispec  = "==5.2.2"
 flask = "==2.2.2"
 werkzeug = "==2.2.2"
 
-mypy = "==0.991"
+mypy = "==1.0.0"
 pipenv-setup = "==3.2.0"
 twine = "==4.0.2"
 
