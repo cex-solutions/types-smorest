@@ -54,7 +54,7 @@ setup(
             "marshmallow==3.19.0",
             "apispec==5.2.2",
             "flask==2.3.1",
-            "werkzeug==2.3.0",
+            "werkzeug==2.3.8",
             "mypy==1.2.0",
             "pipenv-setup==3.2.0",
             "twine==4.0.2",
