@@ -36,6 +36,8 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
     ],
     license="GPLv3",
     keywords="flask flask-smorest smorest stubs",
@@ -51,13 +53,12 @@ setup(
     extras_require={
         "dev": [
             "types-flask==1.1.6",
-            "marshmallow==3.21.0",
-            "apispec==5.2.2",
-            "flask==2.3.3",
-            "werkzeug==2.3.8",
-            "mypy==1.2.0",
-            "pipenv-setup==3.2.0",
-            "twine==4.0.2",
+            "marshmallow==3.21.3",
+            "apispec==6.6.1",
+            "flask==3.0.3",
+            "werkzeug==3.0.3",
+            "mypy==1.10.1",
+            "twine==5.1.1",
         ]
     },
     dependency_links=[],
