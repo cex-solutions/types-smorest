@@ -11,7 +11,7 @@ python = "^3.9"
 
 [tool.poetry.group.dev.dependencies]
 types-flask = "==1.1.6"
-marshmallow = "==3.21.0"
+marshmallow = "==3.21.3"
 apispec = "==5.2.2"
 flask = "==2.3.3"
 werkzeug = "==2.3.8"
