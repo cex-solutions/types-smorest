@@ -53,7 +53,7 @@ setup(
             "types-flask==1.1.6",
             "marshmallow==3.21.0",
             "apispec==5.2.2",
-            "flask==2.3.3",
+            "flask==3.0.3",
             "werkzeug==2.3.8",
             "mypy==1.2.0",
             "pipenv-setup==3.2.0",
