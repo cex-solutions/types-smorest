@@ -56,7 +56,7 @@ setup(
             "marshmallow==3.21.3",
             "apispec==6.6.1",
             "flask==3.0.3",
-            "werkzeug==3.0.3",
+            "werkzeug==3.1.5",
             "mypy==1.19.1",
             "twine==6.0.1",
         ]
