@@ -53,12 +53,12 @@ setup(
     extras_require={
         "dev": [
             "types-flask==1.1.6",
-            "marshmallow==3.21.3",
-            "apispec==6.6.1",
+            "marshmallow==3.26.2",
+            "apispec==6.9.0",
             "flask==3.0.3",
-            "werkzeug==3.0.3",
+            "werkzeug==3.1.5",
             "mypy==1.19.1",
-            "twine==6.0.1",
+            "twine==6.2.0",
         ]
     },
     dependency_links=[],
