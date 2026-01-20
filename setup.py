@@ -58,7 +58,7 @@ setup(
             "flask==3.0.3",
             "werkzeug==3.1.5",
             "mypy==1.19.1",
-            "twine==6.0.1",
+            "twine==6.2.0",
         ]
     },
     dependency_links=[],
