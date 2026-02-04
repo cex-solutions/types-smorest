@@ -53,7 +53,7 @@ setup(
     extras_require={
         "dev": [
             "types-flask==1.1.6",
-            "marshmallow==3.26.2",
+            "marshmallow==4.2.2",
             "apispec==6.9.0",
             "flask==3.0.3",
             "werkzeug==3.1.5",
