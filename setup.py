@@ -57,7 +57,7 @@ setup(
             "apispec==6.9.0",
             "flask==3.0.3",
             "werkzeug==3.1.5",
-            "mypy==1.19.1",
+            "mypy==2.3.1",
             "twine==6.2.0",
         ]
     },
