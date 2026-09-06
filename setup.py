@@ -54,10 +54,10 @@ setup(
         "dev": [
             "types-flask==1.1.6",
             "marshmallow==3.26.2",
-            "apispec==6.9.0",
-            "flask==3.0.3",
-            "werkzeug==3.1.5",
-            "mypy==1.19.1",
+            "apispec==6.10.0",
+            "flask==3.1.3",
+            "werkzeug==3.1.8",
+            "mypy==1.20.2",
             "twine==6.2.0",
         ]
     },
